@@ -45,6 +45,7 @@ class App extends React.Component {
         </Header>
         <Drawer >
             <Navigation>
+               <Link to="/" style={{color: this.myStyle(0),fontSize:'20px'}} onClick={()=>this.toggle(0)}>Home</Link>
                <Link to="/about" style={{color: this.myStyle(0),fontSize:'20px'}} onClick={()=>this.toggle(0)}>About</Link>
                 <Link to="/projects" style={{color: this.myStyle(1),fontSize:'20px' }} onClick={()=>this.toggle(1)}>Projects</Link>
                 <Link to="/resume" style={{color: this.myStyle(2),fontSize:'20px'}} onClick={()=>this.toggle(2)}>Resume</Link>
