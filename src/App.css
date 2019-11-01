@@ -1,0 +1,127 @@
+
+.header-gradient{
+  background: #eacda3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-size:20px;
+}
+
+
+.front-image{
+  height: 250px;
+}
+
+.profileImage{
+  position: fixed;
+  float: right;
+  bottom: 0;
+  right:16px;
+  width: 500px;
+  height: 700px;
+  box-shadow: 50px;
+}
+
+.profile-detail{
+  margin-top:10%
+}
+
+.hello{
+  -webkit-text-stroke: 0.4px grey;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+  font-size: 4rem;
+  text-align: center;  
+}
+
+.profile-description{
+  text-align: center;
+  font-size:35px;
+}
+
+.projects{
+  margin: 5rem;
+  display: flex;
+  text-align: center;
+}
+
+.contacts-tab{
+  font-size:500px      ;
+}
+
+.line{
+  margin-bottom: 0px;
+}
+
+.insideGrid{
+  text-align: center;
+}
+
+.fa{
+  color: white;
+  font-size: 2rem
+}
+
+.fa-linkedin-square{
+  color: #0072b1;
+  font-size: 2rem
+}
+
+.fa-envelope-square{
+  color: #D44638;
+  font-size: 2rem
+}
+.mdl-list__item{
+  font-size: 2rem
+}
+
+.list{
+  font-size: 20px;
+  margin: 2rem;
+  text-decoration: none;
+  overflow-wrap: break-word;
+  
+}
+
+.aaa{
+  border-left: 2px solid red;
+}
+
+.Shadow{
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.about-me{
+  font-size:21px;
+  text-align: left;
+  letter-spacing: 0.5px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.color{
+  color: #ff6406;
+  font-weight:700;
+  -webkit-text-stroke: 0.1px #3a3a3a;
+}
+
+Link{
+  font-size: 20px;
+}
+
+.resume-button_p{
+ text-align: center;
+ padding: 50px;
+}
+
+.resume-button{
+  margin:auto 50px;
+  width:300px;
+  padding: 25px;
+  border-radius: 20px;
+  border:'1px solid black';
+  color: orange;
+  font-size: 50px;
+}
