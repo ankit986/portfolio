@@ -29,7 +29,7 @@ class Projects extends React.Component{
                     </Card>
                 {/* </div> */}
             </Tilt>
-            <Tilt className="Tilt" options={{ max : 15 }} style={{marginLeft:'25rem' }} >
+            <Tilt className="Tilt" options={{ max : 15 }} style={{marginLeft:'15rem' }} >
                 {/* <div>  */}
                     <Card shadow={50} style={{width: '512px', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.jqueryscript.net/images/Polygonal-Particles-Background-polygonizr.jpg) center / cover'}}>

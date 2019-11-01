@@ -1,4 +1,29 @@
+/* Global CSS */
+.Shadow{
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
 
+.color{
+  color: #ff6406;
+  font-weight:700;
+  -webkit-text-stroke: 0.1px #3a3a3a;
+}
+
+.line{
+  margin-bottom: 0px;
+}
+
+Link{
+  font-size: 20px;
+} 
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/* App.js CSS File */
 .header-gradient{
   background: #eacda3;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
@@ -7,21 +32,7 @@
   font-size:20px;
 }
 
-
-.front-image{
-  height: 250px;
-}
-
-.profileImage{
-  position: fixed;
-  float: right;
-  bottom: 0;
-  right:16px;
-  width: 500px;
-  height: 700px;
-  box-shadow: 50px;
-}
-
+/* landingpage.js CSS File */
 .profile-detail{
   margin-top:10%
 }
@@ -29,33 +40,23 @@
 .hello{
   -webkit-text-stroke: 0.4px grey;
   text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
-  font-size: 4rem;
+  font-size: 50px;
   text-align: center;  
 }
 
 .profile-description{
   text-align: center;
-  font-size:35px;
+  font-size:30px;
 }
 
+/* projects.js CSS File */
 .projects{
   margin: 5rem;
   display: flex;
   text-align: center;
 }
 
-.contacts-tab{
-  font-size:500px      ;
-}
-
-.line{
-  margin-bottom: 0px;
-}
-
-.insideGrid{
-  text-align: center;
-}
-
+/* contact.js CSS File */
 .fa{
   color: white;
   font-size: 2rem
@@ -70,6 +71,7 @@
   color: #D44638;
   font-size: 2rem
 }
+
 .mdl-list__item{
   font-size: 2rem
 }
@@ -82,34 +84,19 @@
   
 }
 
-.aaa{
+.contact-border{
   border-left: 2px solid red;
 }
 
-.Shadow{
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-}
-
+/* about.js CSS File */
 .about-me{
-  font-size:21px;
+  font-size:16px;
   text-align: left;
   letter-spacing: 0.5px;
 }
 
-a{
-  text-decoration: none;
-  color: #fff;
-}
 
-.color{
-  color: #ff6406;
-  font-weight:700;
-  -webkit-text-stroke: 0.1px #3a3a3a;
-}
-
-Link{
-  font-size: 20px;
-}
+/* resume.js CSS File */
 
 .resume-button_p{
  text-align: center;
@@ -119,7 +106,7 @@ Link{
 .resume-button{
   margin:auto 50px;
   width:300px;
-  padding: 25px;
+  padding: 10px;
   border-radius: 20px;
   border:'1px solid black';
   color: orange;

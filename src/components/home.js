@@ -9,6 +9,7 @@ import LandingPage from './landingpage';
 const Home = () => (
     <div>     
       <Switch>
+        <Route path="/portfolio" component={LandingPage} />
         <Route exact path="/" component={LandingPage} />
         <Route path="/contacts" component={Contacts} />
         <Route path="/about" component={About} />

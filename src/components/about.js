@@ -8,7 +8,7 @@ class About extends React.Component {
             <div>
                 <div>
                     <Grid>
-                        <Cell col={12} className=''>
+                        <Cell col={12}>
                             <h1 className='tc f1 line Shadow '>ABOUT ME</h1>
                             <div className='w4 br-pill bw3 center bt color'></div>
                             <div style={{ textAlign: 'center', margin: '4rem' }}>
@@ -20,7 +20,7 @@ class About extends React.Component {
                                     </Cell>
                                     <Cell col={6}>
                                         <p className='about-me' style={{ marginTop: '2em' }}>
-                                            Hi! I am a final year undergraduate student in the Department of Computer Science and Engineering at <a className='color' alt='a' href='https://google.com'>Government Engineering College</a>, Bilaspur, India. I belong to Korba, Chhattisgarh.
+                                            Hi! I am a final year undergraduate student in the Department of Computer Science and Engineering at <a className='color' alt='a' href='http://gecbsp.ac.in/'>Government Engineering College</a>, Bilaspur, India. I belong to Korba, Chhattisgarh.
                                         </p>
                                         <p className='about-me'>
                                             I have completed one-month vocational training in <a className='color' alt='a' href='https://google.com'>Java(J2SE)</a> at CRSIP, Bhopal in 2018, I have also completed an 8-week NPTEL course on <a className='color' alt='a' href='https://google.com'>Design and Analysis of Algorithm</a>.
