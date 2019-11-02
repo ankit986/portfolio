@@ -40,21 +40,47 @@ a{
 .hello{
   -webkit-text-stroke: 0.4px grey;
   text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
-  font-size: 50px;
+  font-size: 3vw;
   text-align: center;  
 }
 
 .profile-description{
   text-align: center;
-  font-size:30px;
+  font-size:2.2vw;
+  margin-top: 50px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .profile-detail {
+    margin-top:35%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  .profile-description {
+    margin-top:0%;
+    font-size:2.8vw /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  .hello{
+    font-size: 5vw
+  }
 }
 
 /* projects.js CSS File */
 .projects{
-  margin: 5rem;
+  margin-top: 3%;
   display: flex;
   text-align: center;
+  width: 100%
 }
+
+.card{
+  width: 70%;
+  margin: 0 auto; 
+  }
+
+/* .Tilt{
+  margin-left:15rem;
+} */
+
 
 /* contact.js CSS File */
 .fa{
@@ -73,20 +99,40 @@ a{
 }
 
 .mdl-list__item{
-  font-size: 2rem
+  font-size: 1vw;
 }
 
 .list{
-  font-size: 20px;
+  font-size: 1.3vw;
   margin: 2rem;
   text-decoration: none;
   overflow-wrap: break-word;
   
 }
-
-.contact-border{
-  border-left: 2px solid red;
+  
+.contact-heading{
+  text-align:center; 
+margin: 4rem  ;
+font-size: 30px;
 }
+
+.border-contact{
+  border-left: 2px solid red;
+  border-right: 2px solid red;
+}
+
+@media screen and (max-width: 600px) {
+  .list {
+   /* The width is 100%, when the viewport is 800px or smaller */
+    font-size: 3.05vw;
+    border-left:none;
+  }
+  .contact-heading{
+    width:310px;
+    margin-left:8%;
+  }
+}
+
 
 /* about.js CSS File */
 .about-me{
@@ -111,4 +157,12 @@ a{
   border:'1px solid black';
   color: orange;
   font-size: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .resume-button {
+   /* The width is 100%, when the viewport is 800px or smaller */
+   width:80%;
+   margin:8%
+  }
 }

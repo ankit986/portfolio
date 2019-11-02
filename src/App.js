@@ -33,7 +33,7 @@ class App extends React.Component {
 
   render(){   
   return (    
-        <div className="demo-big-content">
+    <div className="demo-big-content">
       <Layout className="header-gradient">
         <Header className="header-gradient color" title={<Link style={{textDecoration:'none', color:'#ff6406'}} to='/'>Ankit Bansal</Link>} scroll>
             <Navigation> 
@@ -43,19 +43,21 @@ class App extends React.Component {
                 <Link to="/contacts" style={{color: this.myStyle(3),fontSize:'20px'}} onClick={()=>this.toggle(3)}>Contacts</Link>
             </Navigation>
         </Header>
+
         <Drawer >
             <Navigation>
-               <Link to="/" style={{color: this.myStyle(4),fontSize:'20px'}} onClick={()=>this.toggle(4)}>Home</Link>
-               <Link to="/about" style={{color: this.myStyle(0),fontSize:'20px'}} onClick={()=>this.toggle(0)}>About</Link>
+                <Link to="/" style={{color: this.myStyle(4),fontSize:'20px'}} onClick={()=>this.toggle(4)}>Home</Link>
+                <Link to="/about" style={{color: this.myStyle(0),fontSize:'20px'}} onClick={()=>this.toggle(0)}>About</Link>
                 <Link to="/projects" style={{color: this.myStyle(1),fontSize:'20px' }} onClick={()=>this.toggle(1)}>Projects</Link>
                 <Link to="/resume" style={{color: this.myStyle(2),fontSize:'20px'}} onClick={()=>this.toggle(2)}>Resume</Link>
                 <Link to="/contacts"  style={{color: this.myStyle(3),fontSize:'20px'}} onClick={()=>this.toggle(3)}>Contacts</Link>
             </Navigation>
         </Drawer>
+        
         <Content>  
             <Home />
         </Content>    
-    </Layout>   
+      </Layout>   
     </div>
 
   );

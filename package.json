@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ankitbansal.github.io/portfolio/",
+  "homepage": "https://ankit986.github.io/portfolio/",
   "dependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",

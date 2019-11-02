@@ -7,8 +7,8 @@ class LandingPage extends React.Component{
             <div>  
             <div className = "profile-detail">
                 <h1 className = "hello">HEY FOLKS!</h1>
-                <p className='profile-description'>I am <span className='color Shadow'>Ankit Bansal</span>,</p>
-                <p className='profile-description'><br /> Final Year CSE Undergrad at Government Engineering College, Bilaspur. </p>
+                <p className='tc f3'>I am <br /><br /><span className='color f1 Shadow'>Ankit Bansal</span></p>
+                <p className='profile-description'> Final Year CSE Undergrad at Government Engineering College, Bilaspur. </p>
             </div>
             </div>
 
