@@ -4,7 +4,7 @@ import {Grid, Cell} from 'react-mdl';
 class Contacts extends React.Component{
     render(){
      return(
-        <div>           
+        <div style={{minWidth:"100%",position:'relative',top:'0',left:'0'}}>           
             <Grid>
                 <Cell col={12} className=''>
 
