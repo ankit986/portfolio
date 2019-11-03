@@ -7,15 +7,21 @@ import Resume from './resume';
 import LandingPage from './landingpage';
 
 const Home = () => (
-    <div>     
-      <Switch>
+    <div style={{minWidth:'100%',  maxHeight:'100%', display:'flex'}}>     
+      {/* <Switch>
         <Route path="/portfolio" component={LandingPage} />
         <Route exact path="/" component={LandingPage} />
         <Route path="/contacts" component={Contacts} />
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
         <Route path="/resume" component={Resume} />  
-      </Switch>  
+      </Switch>   */}
+      <LandingPage />
+      <About />
+      <Projects />
+      <Resume />
+      <Contacts />
+
       
     </div>
     

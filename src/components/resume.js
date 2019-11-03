@@ -1,10 +1,11 @@
 import React from 'react';
 import CV from './AnkitBansal_CV.pdf';
 import {Grid, Cell} from 'react-mdl';
+
 class Resume extends React.Component{
     render(){
         return(
-            <div>  
+            <div style={{minWidth:"100%"}}>  
                 <Grid>
                     <Cell col={12}>
                         <h1 className='tc f1 line Shadow '>RESUME</h1>

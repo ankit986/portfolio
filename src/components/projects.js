@@ -5,7 +5,7 @@ import Tilt from 'react-tilt';
 class Projects extends React.Component{
     render(){
      return(
-         <div >
+         <div style={{minWidth:"100%", position:'relative'}}>
             <Grid>
                 <Cell col={12}>
                  <h1 className='tc f1 line Shadow '>PROJECTS</h1>

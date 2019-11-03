@@ -5,7 +5,7 @@ import ProfileImage from './profileImage.png'
 class About extends React.Component {
     render() {
         return (
-            <div>
+            <div style={{minWidth:'100%'}} >
                 <div>
                     <Grid>
                         <Cell col={12}>
