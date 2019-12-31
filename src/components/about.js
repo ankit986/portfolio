@@ -1,26 +1,29 @@
 import React from 'react';
 import { Grid, Cell } from 'react-mdl';
-import ProfileImage from './profileImage.png'
+import ProfileImage from './Assets/Images/profileImage.webp';
 
 class About extends React.Component {
     render() {
         return (
-            <div style={{minWidth:'100%'}} >
-                <div>
+                <div id='about'>
                     <Grid>
                         <Cell col={12}>
-                            <h1 className='tc f1 line Shadow '>ABOUT ME</h1>
+                            <h1 className='tc f1 line Shadow'>ABOUT ME</h1>
+                                    {/* Underline of heading */}
                             <div className='w4 br-pill bw3 center bt color'></div>
-                            <div style={{ textAlign: 'center', margin: '4rem' }}>
-                                <Grid className=' shadow-3'>
+                                    {/* Content */}
+                            <div style={{ textAlign:'center', margin: '2vw' }} data-aos="fade-up"  >
+                                <Grid className='shadow-3'>
+                                    {/* Image */}
                                     <Cell col={6}>
                                         <img
                                             src={ProfileImage} alt="ANKIT BANSAL PROFILE"
                                         />
                                     </Cell>
+                                     {/* Description */}
                                     <Cell col={6}>
                                         <p className='about-me' style={{ marginTop: '2em' }}>
-                                            Hi! I am a final year undergraduate student in the Department of Computer Science and Engineering at <a className='color' alt='a' href='http://gecbsp.ac.in/'>Government Engineering College</a>, Bilaspur, India. I belong to Korba, Chhattisgarh.
+                                            Hey Folks!! <br/>I am a final year undergraduate student in the Department of Computer Science and Engineering at <a className='color' alt='a' href='http://gecbsp.ac.in/'>Government Engineering College</a>, Bilaspur, India. I am native of Korba, Chhattisgarh.
                                         </p>
                                         <p className='about-me'>
                                             I have completed one-month vocational training in <a className='color' alt='a' href='https://drive.google.com/file/d/0B_-kQAkzcQJCZEpaUG4wTzczZndVeVVQdlpNVnBrYldwb2R3/view?usp=sharing'>Java(J2SE)</a> at CRSIP, Bhopal in 2018, I have also completed an 8-week NPTEL course on <a className='color' alt='a' href='https://drive.google.com/file/d/1pVLPtfokWtPzMnEZlYltrSJ5Ynvzglaw/view?usp=sharing'>Design and Analysis of Algorithm</a>.
@@ -45,7 +48,6 @@ class About extends React.Component {
                         </Cell>
                     </Grid>
                 </div>
-            </div>
         )
     }
 }

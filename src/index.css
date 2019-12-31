@@ -8,12 +8,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'McLaren', cursive;
   color: #3a3a3a;
-
+  scroll-behavior: smooth;
 }
 
 #root{
-  font-family: 'Comfortaa', cursive;
-  
+  font-family: 'Comfortaa', cursive; 
 }
 
 code {

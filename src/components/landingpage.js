@@ -1,20 +1,18 @@
 import React from 'react';
+import Navbar from './navbar';
 
-
-class LandingPage extends React.Component{
-    render(){
-        return(
-            <div style={{position:'relative', minWidth:'100%'}} >  
-            <div className = "profile-detail" >
-                <h1 className = "hello">HEY FOLKS!</h1>
-                <p className='tc f3'>I am <br /><br /><span className='color f1 Shadow'>Ankit Bansal</span></p>
-                <p className='profile-description'> Final Year CSE Undergrad at Government Engineering College, Bilaspur. </p>
-            </div>
-            </div>
-
-        )
-    
- }
+function LandingPage() {
+  return (
+    <div className='landingpage-container'>
+      <Navbar /> 
+      <div id='inside'>
+          <div className="profile-detail" data-aos="zoom-out">
+            <span className='color name Shadow '>Ankit Bansal</span>
+            <p className='profile-description' > Final Year CSE Undergrad at Government Engineering College, Bilaspur. </p>
+          </div>
+      </div>
+    </ div>
+  );
 }
 
 export default LandingPage;

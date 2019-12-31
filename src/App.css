@@ -5,7 +5,7 @@
 
 .color{
   color: #ff6406;
-  font-weight:700;
+  font-weight:500;
   -webkit-text-stroke: 0.1px #3a3a3a;
 }
 
@@ -23,46 +23,87 @@ a{
 }
 
 
-/* App.js CSS File */
-.header-gradient{
-  background: #eacda3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+/* App.js CSS File */
+
+#front-page{
+   height: 100vh; 
+}
+
+.header-gradient{  
   font-size:20px;
 }
 
 /* landingpage.js CSS File */
+
+
 .profile-detail{
-  margin-top:10%
+  margin-top:40vh;
+  text-align: center;
+  color: antiquewhite;
 }
 
 .hello{
   -webkit-text-stroke: 0.4px grey;
-  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
-  font-size: 3vw;
+  text-shadow:  9px 8px 0px rgba(0,0,0,0.15);
+  z-index: 2;
+  font-size: 2vw;
   text-align: center;  
+}
+
+.name{
+  font-size:7vw;
+  text-shadow:  6px 5px 0px rgba(0,0,0,0.4);
 }
 
 .profile-description{
   text-align: center;
-  font-size:2.2vw;
+  font-size:2.0vw;
   margin-top: 50px;
+
+}
+
+.landingpage-container{
+  height:100vh;
+  background:url(./components/Assets/Images/photo.webp);
+  background-attachment: fixed;
+  margin:0px;
+  z-index: -1;
+  background-size:cover;
+  text-shadow: 1px 2px #000;
+	box-shadow: inset 10 10px 25px #eeecec, inset -100px -10px 25px #af2828;
+    
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+  .name{
+   font-size:14vw;
+  }
+
   .profile-detail {
-    margin-top:35%; /* The width is 100%, when the viewport is 800px or smaller */
+    margin-top:35%;   
   }
+
   .profile-description {
-    margin-top:0%;
-    font-size:2.8vw /* The width is 100%, when the viewport is 800px or smaller */
+  margin-top: 25px;
+    font-size:2.8vw
   }
+
   .hello{
     font-size: 5vw
   }
 }
+
+
+
+/* about.js CSS File */
+.about-me{
+  font-size:16px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+}
+
 
 /* projects.js CSS File */
 .projects{
@@ -72,19 +113,33 @@ a{
   width: 100%
 }
 
-.card{
-  width: 70%;
-  margin: 0 auto; 
-  }
+.project-container{
+  background:url(./components/Assets/Images/project-background.webp);
+  background-attachment: fixed;
+  margin:0px;
+  z-index: 1;
+  background-size:cover;
+  box-shadow: inset 10px 10px 25px #a7a3a3, inset -10px -10px 25px #504b4b;
+}
 
-/* .Tilt{
-  margin-left:15rem;
-} */
+
+.project-container::after {
+	content: '';
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.5);
+	box-shadow: inset 100px 10px 25px #000000, inset -10px -10px 25px #000000;
+}
+
 
 
 /* contact.js CSS File */
 .fa{
-  color: white;
+  color: greenyellow;
   font-size: 2rem
 }
 
@@ -107,13 +162,13 @@ a{
   margin: 2rem;
   text-decoration: none;
   overflow-wrap: break-word;
-  
+  margin: 10px 0 10px 0
 }
   
 .contact-heading{
   text-align:center; 
-margin: 4rem  ;
-font-size: 30px;
+  margin: 4rem  ;
+  font-size: 30px;
 }
 
 .border-contact{
@@ -121,48 +176,15 @@ font-size: 30px;
   border-right: 2px solid red;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .list {
-   /* The width is 100%, when the viewport is 800px or smaller */
     font-size: 3.05vw;
     border-left:none;
   }
   .contact-heading{
     width:310px;
-    margin-left:8%;
+    margin:10vh auto;
   }
 }
 
 
-/* about.js CSS File */
-.about-me{
-  font-size:16px;
-  text-align: left;
-  letter-spacing: 0.5px;
-}
-
-
-/* resume.js CSS File */
-
-.resume-button_p{
- text-align: center;
- padding: 50px;
-}
-
-.resume-button{
-  margin:auto 50px;
-  width:300px;
-  padding: 10px;
-  border-radius: 20px;
-  border:'1px solid black';
-  color: orange;
-  font-size: 50px;
-}
-
-@media screen and (max-width: 800px) {
-  .resume-button {
-   /* The width is 100%, when the viewport is 800px or smaller */
-   width:80%;
-   margin:8%
-  }
-}

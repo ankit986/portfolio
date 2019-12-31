@@ -4,11 +4,14 @@
   "private": true,
   "homepage": "https://ankit986.github.io/portfolio/",
   "dependencies": {
+    "aos": "^2.3.4",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-mdl": "^1.11.0",
+    "react-parallax": "^2.2.4",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
+    "react-scroll": "^1.7.14",
     "react-tilt": "^0.1.4",
     "tachyons": "^4.11.1"
   },
@@ -42,5 +45,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankit986/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ankit986/portfolio/issues"
+  }
 }

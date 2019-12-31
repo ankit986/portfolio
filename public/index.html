@@ -29,29 +29,15 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <style>
+    </style>
     
     <title>ANKIT BANSAL | PORTFOLIO</title>
-    <style>
-      body{
-        margin:0;
-        padding:0;
-        background: #eacda3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-      }
-      #root{
-        position: fixed;;
-        top:0;
-        left:0;
-        width:100%;  
-        min-height: 800px; 
-      }
-    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root" data-0="transform:translateX(0%)" data-4000="transform:translateX(-400%)"></div>
+    <div id="root"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -62,7 +48,10 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script type="text/javascript" src="skrollr.js"></script>
-    <script>skrollr.init();</script>
+    <script src='parallax.js' type='text/Javascript'>
+    </script>
+    <script>
+    var scene = document.getElementById('inside')
+    var parallax= new parallax(scene)</script>
   </body>
 </html>
