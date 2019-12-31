@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e844de3cdd366031c746835c53becb82",
+    "revision": "990a7157276366bf2d9e7f1d64391886",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.05aa562b.chunk.css"
   },
   {
-    "revision": "e7769d06ae1369e30a01",
-    "url": "/portfolio/static/css/main.907a0f86.chunk.css"
+    "revision": "a566bfd15688f0d1cbe5",
+    "url": "/portfolio/static/css/main.67edfacf.chunk.css"
   },
   {
     "revision": "861ae10e110c4ca28c4a",
     "url": "/portfolio/static/js/2.8e705a32.chunk.js"
   },
   {
-    "revision": "e7769d06ae1369e30a01",
-    "url": "/portfolio/static/js/main.fd2cdc9d.chunk.js"
+    "revision": "a566bfd15688f0d1cbe5",
+    "url": "/portfolio/static/js/main.ce1528b0.chunk.js"
   },
   {
     "revision": "c5306228cc83f6f6271c",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/AnkitBansal_CV.e3f7b907.pdf"
   },
   {
-    "revision": "278daef1c868697cb236224e9b7676f9",
-    "url": "/portfolio/static/media/photo.278daef1.webp"
+    "revision": "670ececdd7a78d61e91f0b2bdc0c3d77",
+    "url": "/portfolio/static/media/image.670ececd.webp"
   },
   {
     "revision": "90c16ae0006f111a145aa5f4781f25ea",
