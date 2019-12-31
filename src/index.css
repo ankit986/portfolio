@@ -9,6 +9,8 @@ body {
   font-family: 'McLaren', cursive;
   color: #3a3a3a;
   scroll-behavior: smooth;
+  overflow-x:hidden;
+  
 }
 
 #root{

@@ -5,6 +5,7 @@
   "homepage": "https://ankit986.github.io/portfolio/",
   "dependencies": {
     "aos": "^2.3.4",
+    "npm-react": "^1.0.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-mdl": "^1.11.0",

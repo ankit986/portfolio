@@ -23,9 +23,9 @@ const Navbar = () => (
                             spy={true}
                             smooth={true}
                             offset={0}
-                            duration={600}
+                            duration={800}
                             className="f4 fw4 grow hover-orange no-underline white-70 dn dib-ns pv2 ph3"
-                            style={{cursor:'pointer'}}>Project
+                            style={{cursor:'pointer'}}>Projects
                         </Link>
                         <a href={CV} target='_blank' rel="noopener noreferrer"  className="f4 fw4 grow hover-orange no-underline white-70 dn dib-ns pv2 ph3" >
                           Resume
