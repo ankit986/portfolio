@@ -3,17 +3,17 @@ import { Card, CardTitle, CardText, Button, CardActions, Cell } from 'react-mdl'
 import Tilt from 'react-tilt';
 
 function CardP(props) {
-    return (<div style={{width:'25%'}}>
+    return (<div>
         <Cell >
-            <Tilt className="Tilt" options={{ max: 15,transition: true, scale:1, speed:1000 }}>
-                <Card shadow={50} >
+            {/* <Tilt className="Tilt" options={{ max: 15,transition: true, scale:1, speed:1000 }}> */}
+                <Card shadow={50}  style={{width:'320px'}} >
                     {/* Card Title  and Background Image*/}
                     <CardTitle style={{ color: '#fff', height: '176px', display:"block", background: "url("+props.bgImage+") center / cover" }}>
                         {props.projectName}
                     </CardTitle>
 
                     {/* Description */}
-                    <CardText style={{ textAlign: 'justify' }}>
+                    <CardText style={{ textAlign: 'justify', width:'99%'}}>
                         <span style={{ fontWeight: "bold" }}>Tech Stack:-</span> {props.techStack}
                         <br /><br/>
                         <p>{props.detail}</p>
@@ -24,7 +24,7 @@ function CardP(props) {
                         <Button colored href={props.githubLink} target="_blank">Github</Button>
                     </CardActions>
                 </Card>
-            </Tilt>
+            {/* </Tilt> */}
         </Cell>
     </div>);
 }

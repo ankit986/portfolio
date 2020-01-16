@@ -1,9 +1,10 @@
 import React from 'react';
+import bgGif from './Assets/Images/bgGIF.gif';
 
 class Footer extends React.Component {
     render() {
         return (
-            <footer style={{ backgroundImage: 'url(http://i.giphy.com/5lF3pQpdquCBy.gif)' }} className="tc-l bg-center cover bg-black">
+            <footer style={{background: "url("+bgGif+") center / cover"}} className="tc-l bg-center cover bg-black">
                 <div className="w-100 ph3 pv4 bg-black-80">
                     
                     <a className="link white-60 bg-transparent hover-white inline-flex items-center ma2 tc br2 pa2" href="https://github.com/ankit986" title="GitHub">

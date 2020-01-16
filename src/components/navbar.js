@@ -5,7 +5,7 @@ import CV from './Assets/Resume/AnkitBansal_CV.pdf';
 const Navbar = () => (
 
     <header className="sans-serif">
-                <nav className="dt w-100 mw8 center">
+                <div className="dt w-100 mw8 center">
                     <div className="dtc v-mid tr pa3">
                         <Link
                             activeClass="active"
@@ -41,7 +41,7 @@ const Navbar = () => (
                             style={{cursor:'pointer'}}>Contact
                         </Link>
                     </div>
-                </nav>
+                </div>
     </header>
 );
 
