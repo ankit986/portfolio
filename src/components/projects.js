@@ -5,7 +5,7 @@ import CardP from './card'
 class Projects extends React.Component {
     render() {
         return (
-            <div className='project-container'>
+            <div className='project-container' id="project">
                     <div style={{ minHeight: '100vh' }}>
                         <Grid>
                             <Cell col={12}>

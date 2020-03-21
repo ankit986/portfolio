@@ -1,12 +1,11 @@
 import React from 'react';
 import { Card, CardTitle, CardText, Button, CardActions, Cell } from 'react-mdl';
-import Tilt from 'react-tilt';
 
 function CardP(props) {
     return (<div>
         <Cell >
             {/* <Tilt className="Tilt" options={{ max: 15,transition: true, scale:1, speed:1000 }}> */}
-                <Card shadow={50}  style={{width:'320px'}} >
+                <Card shadow={50}  style={{width:'310px'}} >
                     {/* Card Title  and Background Image*/}
                     <CardTitle style={{ color: '#fff', height: '176px', display:"block", background: "url("+props.bgImage+") center / cover" }}>
                         {props.projectName}
