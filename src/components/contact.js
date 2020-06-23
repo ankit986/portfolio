@@ -14,7 +14,7 @@ class Contacts extends React.Component {
                                 <Cell col={4} className="border-contact" style={{ width: '100%' }} data-aos="zoom-out-left">
                                     <span id=''> <i className="fa fa-phone " aria-hidden="true" />  Phone</span>
                                     <p className='list'>
-                                        +91-9174110863  &nbsp;  +91-9399030249
+                                    +91-9399030249 &nbsp;  +91-9174110863
                                     </p>
                                 </Cell>
                                 <Cell col={4} className='border-contact' style={{ width: '100%' }} data-aos="zoom-out-right">

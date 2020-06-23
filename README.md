@@ -1,4 +1,4 @@
-**This is My Portfolio website. **
+# Portfolio Website - Ankit Bansal.
 
 completely developed in ReactJs.
 
@@ -11,3 +11,12 @@ I believe that the best way to learn something is by sharing what you learned, s
 I like making new connections and learning new things by sharing knowledge.
 
 For any new project ping me, I always like to work on new ideas.
+
+To setup this project in your System 
+Simply fork this project and then clone it 
+
+    - install all dependencies by 
+    - npm install
+
+    - start the project by
+    - npm start

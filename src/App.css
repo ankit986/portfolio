@@ -65,7 +65,7 @@ a{
 
 .landingpage-container{
   height:100vh;
-  background:url(./components/Assets/Images/image.webp);
+  background:url(./Assets/Images/image.webp);
   background-attachment: fixed;
   margin:0px;
   z-index: -1;
@@ -115,7 +115,7 @@ a{
 }
 
 .project-container{
-  background:url(./components/Assets/Images/project-background.webp);
+  background:url(./Assets/Images/project-background.webp);
   background-attachment: fixed;
   margin:0px;
   z-index: 1;

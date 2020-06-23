@@ -10,7 +10,6 @@
     "react-dom": "^16.11.0",
     "react-mdl": "^1.11.0",
     "react-parallax": "^2.2.4",
-    "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
     "tachyons": "^4.11.1"
   },
