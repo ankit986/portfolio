@@ -9,7 +9,8 @@ import LandingPage from './components/landingpage';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-class App extends React.Component {
+
+class App extends React.PureComponent {
   componentDidMount(){
     AOS.init({
       duration : 2000

@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Cell } from 'react-mdl';
 import ProfileImage from '../Assets/Images/profileImage.webp';
 
-class About extends React.Component {
+class About extends React.PureComponent {
     render() {
         return (
                 <div id='about'>

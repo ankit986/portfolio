@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from './navbar';
 
-function LandingPage() {
+class LandingPage extends React.PureComponent {
+  render(){
   return (
     <div className='landingpage-container'>
       <Navbar /> 
@@ -14,5 +15,5 @@ function LandingPage() {
     </ div>
   );
 }
-
+}
 export default LandingPage;

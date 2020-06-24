@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Cell } from 'react-mdl';
 
-class Contacts extends React.Component {
+class Contacts extends React.PureComponent {
     render() {
         return (
             <div id="contact">
