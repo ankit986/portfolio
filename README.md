@@ -1,8 +1,10 @@
 # Portfolio Website - Ankit Bansal.
 
-completely developed in ReactJs.
+This website is completely developed in ReactJs.
 
-I am a final year undergraduate student in the Department of Computer Science and Engineering at Government Engineering College, Bilaspur, India. I am native of Korba, Chhattisgarh.
+I am Trainee Software Engineer at Zimetrics Technology Pvt. Ltd.
+
+Completed Bachelor of Engineering in Computer Science and Engineering from Government Engineering College, Bilaspur, India. I am native of Korba, Chhattisgarh.
 
 I have been the vice president of the CSE department in session 2018-19 and lead the team to organize various events. I was selected for the Tuition Fee Waiver scholarship and got a 100% scholarship in my college tuition fees.
 
