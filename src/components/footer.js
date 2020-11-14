@@ -25,7 +25,7 @@ class Footer extends React.PureComponent {
                     </a>
                     <br /><br />
                     <p className='hover-white f3'>“The wise man should restrain his senses like the crane and accomplish his purpose with due knowledge of his place, time and ability” - Chanakya</p>
-
+                    <p className="light-yellow"> No Copyright Issue <strike>&#169;</strike> (Use this design freely for your portfolio)</p>
                 </div>
             </footer>
         )

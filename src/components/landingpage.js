@@ -9,7 +9,7 @@ class LandingPage extends React.PureComponent {
       <div id='inside'>
           <div className="profile-detail" data-aos="zoom-out">
             <span className='color name Shadow '>Ankit Bansal</span>
-            <p className='profile-description' > Final Year CSE Undergrad at Government Engineering College, Bilaspur. </p>
+            <p className='profile-description' > Trainee Software Engineer at Zimetrics Technology. </p>
           </div>
       </div>
     </ div>

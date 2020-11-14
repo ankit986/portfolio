@@ -23,7 +23,8 @@ class About extends React.PureComponent {
                                      {/* Description */}
                                     <Cell col={6}>
                                         <p className='about-me' style={{ marginTop: '2em' }}>
-                                            Hey Folks!! <br/>I am a final year undergraduate student in the Department of Computer Science and Engineering at <a className='color' alt='a' href='http://gecbsp.ac.in/'>Government Engineering College, Bilaspur</a>, India. I am native of Korba, Chhattisgarh.
+                                            Hey Folks!! <br/>I am a Trainee Software Engineer at <a  className='color' alt='zimetrics technology' href='http://www.zimetrics.com/'>Zimetrics Technology Pvt. Ltd.</a>.
+                                            <br/>I have completed my graduation in Computer Science and Engineering from <a className='color' alt='a' href='http://gecbsp.ac.in/'>Government Engineering College, Bilaspur</a>, India. I am native of Korba, Chhattisgarh.
                                         </p>
                                         {/* <p className='about-me'>
                                             I have completed one-month vocational training in <a className='color' alt='a' href='https://drive.google.com/file/d/0B_-kQAkzcQJCZEpaUG4wTzczZndVeVVQdlpNVnBrYldwb2R3/view?usp=sharing'>Java(J2SE)</a> at CRSIP, Bhopal in 2018, I have also completed an 8-week NPTEL course on <a className='color' alt='a' href='https://drive.google.com/file/d/1pVLPtfokWtPzMnEZlYltrSJ5Ynvzglaw/view?usp=sharing'>Design and Analysis of Algorithm</a>.
