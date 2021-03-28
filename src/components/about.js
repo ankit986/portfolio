@@ -23,17 +23,20 @@ class About extends React.PureComponent {
                                      {/* Description */}
                                     <Cell col={6}>
                                         <p className='about-me' style={{ marginTop: '2em' }}>
-                                            Hey Folks!! <br/>I am a Trainee Software Engineer at <a  className='color' alt='zimetrics technology' href='http://www.zimetrics.com/'>Zimetrics Technology Pvt. Ltd.</a>.
-                                            <br/>I have completed my graduation in Computer Science and Engineering from <a className='color' alt='a' href='http://gecbsp.ac.in/'>Government Engineering College, Bilaspur</a>, India. I am native of Korba, Chhattisgarh.
+                                            Hey Folks!! <br/>I am a Software Engineer at <a  className='color' alt='zimetrics technology' href='http://www.zimetrics.com/'>Zimetrics Technology Pvt. Ltd.</a>
                                         </p>
-                                        {/* <p className='about-me'>
-                                            I have completed one-month vocational training in <a className='color' alt='a' href='https://drive.google.com/file/d/0B_-kQAkzcQJCZEpaUG4wTzczZndVeVVQdlpNVnBrYldwb2R3/view?usp=sharing'>Java(J2SE)</a> at CRSIP, Bhopal in 2018, I have also completed an 8-week NPTEL course on <a className='color' alt='a' href='https://drive.google.com/file/d/1pVLPtfokWtPzMnEZlYltrSJ5Ynvzglaw/view?usp=sharing'>Design and Analysis of Algorithm</a>.
-                                            I have Learnt web development, nodejs and reactjs on my own.
-                                          </p> */}
                                         <p className='about-me'>
+                                            I am Currently working with Flutter. I have worked with React.js and React-Native.
+                                        </p> 
+                                        
+                                        <p className='about-me'>
+                                            I have completed my graduation in Computer Science and Engineering from <a className='color' alt='a' href='http://gecbsp.ac.in/'>Government Engineering College, Bilaspur</a>, India. I am native of Korba, Chhattisgarh.
+                                        </p>         
+                                                                       
+                                        {/* <p className='about-me'>
                                             I have been the <a className='color' alt='a' href='https://drive.google.com/file/d/1fwjgVLIOPg-wDv1TE141uJ8SiK0DRe2M/view?usp=sharing'>vice president</a> of the CSE department in session 2018-19 and lead the team to organize various events.
                                             I was selected for the <a className='color' alt='a' href='https://drive.google.com/file/d/1yhMYgdo2owyjTBC8pU9lJ4TGlFc2Sw_m/view?usp=sharing'>Tuition Fee Waiver scholarship</a> and got a 100% scholarship in my college tuition fees.
-                                          </p>
+                                          </p> */}
                                         <p className='about-me'>
                                             I believe that the best way to learn something is by sharing what you learned, so, with my friends I have ignited a developer club in my college to make a local programming community and to help each other by sharing knowledge. We have 150+ members currently enrolled in from different branches who are full of enthusiasm and always ready to take challenges.
                                           </p>
