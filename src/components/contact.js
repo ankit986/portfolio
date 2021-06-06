@@ -18,7 +18,7 @@ class Contacts extends React.PureComponent {
                                     </p>
                                 </Cell>
                                 <Cell col={4} className='border-contact' style={{ width: '100%' }} data-aos="zoom-out-right">
-                                    <i className="fa fa-linkedin-square" />LinkedIn
+                                    <i className="fa fa-linkedin-square" /> LinkedIn
                                     <p className='list'><a href="https://linkedin.com/in/ankitbansal1412" alt="www.linkedin.com/in/ankitbansal1412" className='no-underline color' >www.linkedin.com/in/ankitbansal1412</a>
                                     </p>
                                 </Cell>
