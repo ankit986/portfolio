@@ -23,12 +23,12 @@ class About extends React.PureComponent {
                                      {/* Description */}
                                     <Cell col={6}>
                                         <p className='about-me' style={{ marginTop: '2em' }}>
-                                            Hey Folks!! <br/>I am a Software Engineer at <a  className='color' alt='zimetrics technology' href='http://www.zimetrics.com/'>Zimetrics Technology Pvt. Ltd.</a>
+                                            Hey Folks!! <br/>I am a Data Scientist at <a  className='color' alt='Tiger Analytics' href='http://www.tigeranalytics.com/'>Tiger Analytics.</a>
                                         </p>
-                                        <p className='about-me'>
+                                        {/* <p className='about-me'>
                                             I am Currently working with Flutter. I have worked with React.js and React-Native.
                                         </p> 
-                                        
+                                         */}
                                         <p className='about-me'>
                                             I have completed my graduation in Computer Science and Engineering from <a className='color' alt='a' href='http://gecbsp.ac.in/'>Government Engineering College, Bilaspur</a>, India. I am native of Korba, Chhattisgarh.
                                         </p>         
