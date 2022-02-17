@@ -1,8 +1,12 @@
 # Portfolio Website - Ankit Bansal.
 
-completely developed in ReactJs.
+## Data scientist at Tiger analytics.
 
-I am a final year undergraduate student in the Department of Computer Science and Engineering at Government Engineering College, Bilaspur, India. I am native of Korba, Chhattisgarh.
+Completerrrrrrrly developed in ReactJs.
+ri                                                                                                                                                                                                               nri                                                                                                                          ki jha                                                                                                                                                   ajhaao
+
+
+Completed my graduation in the Department of Computer Science and Engineering at Government Engineering College, Bilaspur, India. I am native of Korba, Chhattisgarh.
 
 I have been the vice president of the CSE department in session 2018-19 and lead the team to organize various events. I was selected for the Tuition Fee Waiver scholarship and got a 100% scholarship in my college tuition fees.
 
@@ -20,3 +24,4 @@ Simply fork this project and then clone it
 
     - start the project by
     - npm start
+r
