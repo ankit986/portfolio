@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "265a8f40d0fcce8a89e467ed09e1a1ab",
+    "revision": "200e0d408f70f5ae0e0462256df17326",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.764e46c2.chunk.css"
   },
   {
-    "revision": "4b53b33b36b5e09bca81",
+    "revision": "c969dc43c91e9231246e",
     "url": "/portfolio/static/css/main.b548095c.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.a98b5a37.chunk.js"
   },
   {
-    "revision": "4b53b33b36b5e09bca81",
-    "url": "/portfolio/static/js/main.944f481d.chunk.js"
+    "revision": "c969dc43c91e9231246e",
+    "url": "/portfolio/static/js/main.3526aa2b.chunk.js"
   },
   {
     "revision": "add6ff81d93680170b15",
     "url": "/portfolio/static/js/runtime-main.2601f1e9.js"
   },
   {
-    "revision": "6417a8caad596b6150f22106eadc3fd2",
-    "url": "/portfolio/static/media/AnkitBansal_CV.6417a8ca.pdf"
+    "revision": "de66188620b207f0a9bdede2c94b0e71",
+    "url": "/portfolio/static/media/AnkitBansal_CV.de661886.pdf"
   },
   {
     "revision": "a68167ff981c7de6ffd5e4f6aac9f28e",
