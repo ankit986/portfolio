@@ -2,13 +2,44 @@ import React from 'react';
 import { Grid, Cell } from 'react-mdl';
 import ProfileImage from '../Assets/Images/profileImage.webp';
 
+let date1 = 'new Date("21/08/2021")'
 class About extends React.PureComponent {
+   
+    state = {
+        date: "",
+        hour:"",
+        minute:"",
+        second:""
+      };
+    
+      getDate() {
+        // var date = { currentTime: new Date().toLocaleString() };
+        const oneDay = 24 * 60 * 60 * 1000; 
+        const oneHour = oneDay/24;
+        const oneMinute = oneHour/60;
+        const firstDate = new Date(2021, 7, 20, 0,29 );
+        const secondDate = new Date();
+        const timeDiff = (secondDate - firstDate)
+        const diffDays = Math.floor(Math.abs(timeDiff / oneDay));
+        let hdd = (timeDiff - diffDays * oneDay);
+        let hd = Math.floor(hdd/oneHour);
+        let mdd = hdd-hd*oneHour;
+        let md = Math.floor(mdd/oneMinute);
+        let sdd = mdd - md * oneMinute
+        let sd = Math.floor(sdd/1000)
+        this.setState({
+          date: diffDays,
+          hour:hd,
+          minute:md,
+          second:sd
+        });
+      }
     render() {
         return (
                 <div id='about'>
                     <Grid>
                         <Cell col={12}>
-                            <h1 className='tc f1 line Shadow'>ABOUT ME</h1>
+                            <h1 className='tc f1 line Shadow'>ABOUT AYUSHI</h1>
                                     {/* Underline of heading */}
                             <div className='w4 br-pill bw3 center bt color'></div>
                                     {/* Content */}
@@ -23,14 +54,14 @@ class About extends React.PureComponent {
                                      {/* Description */}
                                     <Cell col={6}>
                                         <p className='about-me' style={{ marginTop: '2em' }}>
-                                            Hey Folks!! <br/>I am a Data Scientist at <a  className='color' alt='Tiger Analytics' href='http://www.tigeranalytics.com/'>Tiger Analytics.</a>
+                                            Ayushi,  <br/>A very happy birthday  to my most faviorate person in the world. Well,{this.getDate()} Its been{this.state.date} days, {this.state.hour} hours, {this.state.minute} minutes, {this.state.second} seconds since we first chat
                                         </p>
                                         {/* <p className='about-me'>
                                             I am Currently working with Flutter. I have worked with React.js and React-Native.
                                         </p> 
                                          */}
                                         <p className='about-me'>
-                                            I have completed my graduation in Computer Science and Engineering from <a className='color' alt='a' href='http://gecbsp.ac.in/'>Government Engineering College, Bilaspur</a>, India. I am native of Korba, Chhattisgarh.
+                                            She 
                                         </p>         
                                                                        
                                         {/* <p className='about-me'>

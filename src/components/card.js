@@ -8,21 +8,21 @@ class CardP extends React.PureComponent {
         <Cell >
                 <Card shadow={50}  style={{width:'310px'}} >
                     {/* Card Title  and Background Image*/}
-                    <CardTitle style={{ color: '#fff', height: '176px', display:"block", background: "url("+this.props.bgImage+") center / cover" }}>
+                    <CardTitle style={{ color: '#fff', height: '250px', display:"block", background: "url("+this.props.bgImage+") center / cover" }}>
                         {this.props.projectName}
                     </CardTitle>
 
                     {/* Description */}
                     <CardText style={{ textAlign: 'justify', width:'99%'}}>
-                        <span style={{ fontWeight: "bold" }}>Tech Stack:-</span><b> {this.props.techStack}</b>
+                        <span style={{ fontWeight: "bold" }}></span><b> {this.props.techStack}</b>
                         <br /><br/>
                         <p>{this.props.detail}</p>
                     </CardText>
 
-                    {/* Git-Link */}
+                    {/* Git-Link
                     <CardActions border>
                         <Button colored href={this.props.githubLink} target="_blank">Github</Button>
-                    </CardActions>
+                    </CardActions> */}
                 </Card>
         </Cell>
     </div>);

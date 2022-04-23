@@ -23,7 +23,7 @@ class App extends React.PureComponent {
           <LandingPage />
           <About />
           <Projects />
-          <Contacts />
+          {/* <Contacts /> */}
           <Footer />
         </div>
       </div>
