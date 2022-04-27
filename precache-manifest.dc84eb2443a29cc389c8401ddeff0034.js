@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8391d22dbf2768a89c79329ea3c0a8f7",
+    "revision": "6db5fa8c4b7b7f02e5535c06d5b3ffc7",
     "url": "/ayushi/index.html"
   },
   {
-    "revision": "4547830431d641c59200",
+    "revision": "e829c355bbe109362ebb",
     "url": "/ayushi/static/css/2.764e46c2.chunk.css"
   },
   {
-    "revision": "7de1d1a970fd4b6dcdae",
+    "revision": "f9b3d2a5ea9a5944814c",
     "url": "/ayushi/static/css/main.37a0195c.chunk.css"
   },
   {
-    "revision": "4547830431d641c59200",
-    "url": "/ayushi/static/js/2.f80ed04b.chunk.js"
+    "revision": "e829c355bbe109362ebb",
+    "url": "/ayushi/static/js/2.efe49511.chunk.js"
   },
   {
-    "revision": "7de1d1a970fd4b6dcdae",
-    "url": "/ayushi/static/js/main.9cb1fc22.chunk.js"
+    "revision": "f9b3d2a5ea9a5944814c",
+    "url": "/ayushi/static/js/main.acd04b94.chunk.js"
   },
   {
-    "revision": "81b3688b15c53e0e7730",
-    "url": "/ayushi/static/js/runtime-main.8c79a706.js"
+    "revision": "37dce2dc0e9b5e693277",
+    "url": "/ayushi/static/js/runtime-main.4b27d4e7.js"
   },
   {
     "revision": "de66188620b207f0a9bdede2c94b0e71",
