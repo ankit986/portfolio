@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ea212a74e73339872647b6601235286",
+    "revision": "b74863c007faad52dbc750c1a30630ce",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "3078741fd92b420f9ce9",
+    "revision": "af03d11615bc8396c347",
     "url": "/portfolio/static/css/2.764e46c2.chunk.css"
   },
   {
-    "revision": "061dbb3076a09fd3889f",
+    "revision": "88e15cf09a1e9a09852c",
     "url": "/portfolio/static/css/main.9f0db17b.chunk.css"
   },
   {
-    "revision": "3078741fd92b420f9ce9",
-    "url": "/portfolio/static/js/2.8a977ad8.chunk.js"
+    "revision": "af03d11615bc8396c347",
+    "url": "/portfolio/static/js/2.0a5b1428.chunk.js"
   },
   {
-    "revision": "061dbb3076a09fd3889f",
-    "url": "/portfolio/static/js/main.22fe49ba.chunk.js"
+    "revision": "88e15cf09a1e9a09852c",
+    "url": "/portfolio/static/js/main.41f37caf.chunk.js"
   },
   {
     "revision": "add6ff81d93680170b15",
     "url": "/portfolio/static/js/runtime-main.2601f1e9.js"
-  },
-  {
-    "revision": "de66188620b207f0a9bdede2c94b0e71",
-    "url": "/portfolio/static/media/AnkitBansal_CV.de661886.pdf"
   },
   {
     "revision": "d10778e877f8a40fe4720075ade3e19f",
@@ -52,20 +48,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/lame.b8e4eb54.jpeg"
   },
   {
-    "revision": "54bcc37580a40b72369b4f401c730d7d",
-    "url": "/portfolio/static/media/ojos.54bcc375.jpeg"
+    "revision": "96050b9e670eaa3ccc123045d0115b0e",
+    "url": "/portfolio/static/media/ojos.96050b9e.jpeg"
   },
   {
     "revision": "796541527b9865a2ef2b3fa85dabac3b",
     "url": "/portfolio/static/media/posessive.79654152.jpeg"
   },
   {
-    "revision": "633b8927d520ca121c6ad9eea6dc1e40",
-    "url": "/portfolio/static/media/pretty.633b8927.jpeg"
-  },
-  {
-    "revision": "e83436150d718734df9d84cb5198193b",
-    "url": "/portfolio/static/media/supportive.e8343615.jpeg"
+    "revision": "35bb299dc7d4df026354e5e502163c1e",
+    "url": "/portfolio/static/media/pretty.35bb299d.jpeg"
   },
   {
     "revision": "dc7e97f6709e23eddb2ba51e31a49186",
