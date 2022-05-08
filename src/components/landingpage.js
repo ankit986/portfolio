@@ -8,8 +8,14 @@ class LandingPage extends React.PureComponent {
       <Navbar /> 
       <div id='inside'>
           <div className="profile-detail" data-aos="zoom-out">
-            <span className='color name Shadow '>Ankit Bansal</span>
-            <p className='profile-description' > Data Scientist at Tiger Analytics </p>
+            <span className='color name Shadow '>Happy </span>
+            <p className='profile-description' ></p>
+
+            <span className='color name Shadow '>Birthday</span>
+            <p className='profile-description' ></p>
+            <p className='profile-description' ></p>            
+
+            <span className='color name Shadow '>Ayushi </span>
           </div>
       </div>
     </ div>

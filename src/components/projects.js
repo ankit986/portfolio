@@ -1,68 +1,87 @@
 import React from 'react';
 import { Cell, Grid } from 'react-mdl';
-import Brainly_BG from '../Assets/Images/Projects_Image/Brainly_BG.jpg';
-import sma_BG from '../Assets/Images/Projects_Image/sma_BG.jpeg';
-import av_BG from '../Assets/Images/Projects_Image/av_BG.png';
-import fc_BG from '../Assets/Images/Projects_Image/fc_BG.jpeg';
-import wyr_BG from '../Assets/Images/Projects_Image/wyr_BG.jpeg';
-import npp_BG from '../Assets/Images/Projects_Image/npp_BG.jpg';
-import hip_BG from '../Assets/Images/Projects_Image/hip_BG.jpeg';
+import ojos from '../Assets/Images/Projects_Image/ojos.jpeg';
+import writter from '../Assets/Images/Projects_Image/writter.jpeg';
+import lame from '../Assets/Images/Projects_Image/lame.jpeg';
+import cute from '../Assets/Images/Projects_Image/cute.jpeg';
+import pretty from '../Assets/Images/Projects_Image/pretty.jpeg';
+// import supportive from '../Assets/Images/Projects_Image/supportive.jpeg';
+import unpredictable from '../Assets/Images/Projects_Image/unpredictable.jpeg';
+import posessive from '../Assets/Images/Projects_Image/posessive.jpeg';
+import caring from '../Assets/Images/Projects_Image/caring.jpeg';
+import dreamer from '../Assets/Images/Projects_Image/dreamer.jpeg';
 
 import CardP from './card'
 
 const projectDetails = {
-    NewsPopularityPrediction: {
-        projectName: "News Popularity Prediction",
-        techStack: "Python (Supervised Regression)",
-        detail: "Built a model that predicts the popularity of news items after 2 days of publication on various social media platform like facebook, linkedin and Google-Plus",
+    Cute_Ayushi: {
+        projectName: "Cute Ayushi",
+        techStack: "She can be cute",
+        detail: "Once Ayushi is comfortable with you, you will see a new person, a cute kid with all truth and caring",
         githubLink: "https://github.com/ankit986/News-Popularity-Prediction",
-        bgImage: npp_BG,
+        bgImage: cute,
     },
-    HealthCrossSellChurnPrediction: {
-        projectName: "Health Insurance Cross Sell Churn Prediction",
-        techStack: "Python (Supervised Classification)",
-        detail: "Built a model that predicts whether a customer who took a health insurance previously from a company, would be interested in taking vehicle insurance from the same company.",
-        githubLink: "https://github.com/ankit986/HEALTH-INSURANCE-CROSS-SELL-PREDICTION",
-        bgImage: hip_BG,
-    },
+   
     RiskAnalysisOnStockPrices: {
-        projectName: "Risk analysis on stock prices",
-        techStack: "Python",
-        detail: "Performed technical analysis and visualisation on stock prices of tech giants  using data provided by yahoo finance and predicted risk on stock prices by using Monte Carlo method.",
+        projectName: "Ojos Bonitos Ayushi",
+        techStack: "Brown eyes",
+        detail: "Just look at her brown eyes and remember the lyrics of those \"naina\" songs",
         githubLink: "https://github.com/ankit986/Risk-Analysis",
-        bgImage: sma_BG,
+        bgImage: ojos,
     },
     FlashCardApp: {
-        projectName: "FlashCardApp",
-        techStack: "React-Native, Redux",
-        detail: "A native application which allows user to add decks and each deck can contain multiple cards. User can add a question and an answer to the card. User can also take quiz on the cards.",
+        projectName: "Caring Ayushi",
+        techStack: "Cares like anything",
+        detail: "If you are her people, then you will get to know the meaning of \"caring\". She thinks about you and your well being, your needs and whatnot.",
         githubLink: "https://github.com/ankit986/FlashCardApp",
-        bgImage: fc_BG,
+        bgImage: caring,
     },
     Brainly: {
-        projectName: "Brainly",
-        techStack: "ReactJS, ExpressJS, MySQL.",
-        detail: " A web application which takes image from the registered user and shows the facial part in the image  number of images entered so far by the user.",
+        projectName: "Posessive Ayushi",
+        techStack: "Only her person",
+        detail: "Her person knows that he/she is \"her\" person only be it Shreya, Shruti, Tripti or Aman, they know the possessive ayushi",
         githubLink: "https://github.com/ankit986/Brainly-React-Project",
-        bgImage: Brainly_BG,
+        bgImage: posessive,
     },
    
     AlgorithmVisualiser: {
-        projectName: "Algorithm Visualiser",
-        techStack: "React",
-        detail: "A React App that visualises different algorithms and shows the actual work that is being done by the algorithm.",
+        projectName: "Writter Ayushi",
+        techStack: "Natural Writter",
+        detail: "Read any one of her articles, post, stories or poetries and found yourself reading many more.",
         githubLink: "https://github.com/ankit986/algorithm-visualiser",
-        bgImage: av_BG,
+        bgImage: writter,
     },
 
-    WouldYouRather: {
-        projectName: "Would You Rather?",
-        techStack: "React, Redux",
-        detail: "A React app in which a user will be asked a question in the form: \"Would you rather [option A] or [option B] ?\". The user must first authenticate to Create a new question.",
+    
+    NewsPopularityPrediction1: {
+        projectName: "Unpredictable Ayushi",
+        techStack: "No you cant predict",
+        detail: "She can show you different versions of her in a small period and you can't predict what will be the next version.",
+        githubLink: "https://github.com/ankit986/News-Popularity-Prediction",
+        bgImage: unpredictable,
+    },
+    HealthCrossSellChurnPrediction1: {
+        projectName: "Lame Ayushi",
+        techStack: "Just thinks she is  hilarious",
+        detail: "Wanna listen the lamest joke? You can talk to her and ask her to tell you a joke",
+        githubLink: "https://github.com/ankit986/HEALTH-INSURANCE-CROSS-SELL-PREDICTION",
+        bgImage: lame,
+    },
+    RiskAnalysisOnStockPrices1: {
+        projectName: "Pretty Ayushi",
+        techStack: " -- ",
+        detail: "Do I need to write anything for this?",
+        githubLink: "https://github.com/ankit986/Risk-Analysis",
+        bgImage: pretty,
+    },
+    FlashCardApp1: {
+        projectName: "Dreamer Ayushi",
+        techStack: "She dreams she writes",
+        detail: "She is and was a dreamy girl and she recently got to know that she is very imaginary also. Just sit with her and listen to the fairy tale she imagines.",
         githubLink: "https://github.com/ankit986/FlashCardApp",
-        bgImage: wyr_BG,
-    }
-
+        bgImage: dreamer,
+    },
+   
 }
 class Projects extends React.Component {
 
@@ -72,7 +91,7 @@ class Projects extends React.Component {
                 <div style={{ minHeight: '100vh' }}>
                     <Grid>
                         <Cell col={12}>
-                            <h1 className='tc f1 line Shadow '>PROJECTS</h1>
+                            <h1 className='tc f1 line Shadow '>Traits Of Ayushi</h1>
                             <div className=' color w4 br-pill bw3 center bt '></div>
                         </Cell>
                     </Grid>

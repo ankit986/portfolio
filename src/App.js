@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './index.css';
 import About from './components/about';
-import Contacts from './components/contact';
+// import Contacts from './components/contact';
 import Projects from './components/projects';
 import Footer from './components/footer';
 import LandingPage from './components/landingpage';
@@ -23,7 +23,7 @@ class App extends React.PureComponent {
           <LandingPage />
           <About />
           <Projects />
-          <Contacts />
+          {/* <Contacts /> */}
           <Footer />
         </div>
       </div>

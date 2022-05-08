@@ -4,9 +4,9 @@
 }
 
 .color{
-  color: #ff6406;
-  font-weight:500;
-  -webkit-text-stroke: 0.1px #3a3a3a;
+  color: #abfff3c7;
+  font-weight:800;
+  -webkit-text-stroke: 0.2px #3a3a3a;
 }
 
 .line{
@@ -38,9 +38,9 @@ a{
 
 
 .profile-detail{
-  margin-top:40vh;
+  margin-top:30vh;
   text-align: center;
-  color: antiquewhite;
+  color: #abfff3c7;
 }
 
 .hello{
@@ -52,7 +52,7 @@ a{
 }
 
 .name{
-  font-size:7vw;
+  font-size:6vw;
   /* text-shadow:  6px 5px 0px rgba(255,100,6,0.1); */
 }
 
@@ -65,14 +65,13 @@ a{
 
 .landingpage-container{
   height:100vh;
-  background:url(./Assets/Images/image.webp);
+  background:url(./Assets/Images/hbdd12.png);
   background-attachment: fixed;
   margin:0px;
   z-index: -1;
   background-size:cover;
   text-shadow: 1px 2px #000;
 	box-shadow: inset 10 10px 25px #eeecec, inset -100px -10px 25px #af2828;
-    
 }
 
 
@@ -81,12 +80,13 @@ a{
    font-size:14vw;
   }
 
-  .profile-detail {
-    margin-top:35%;   
+  .landingpage-container{
+    display:block;
+    margin:0 auto;
   }
 
   .profile-description {
-  margin-top: 25px;
+  margin-top: 15px;
     font-size:2.8vw
   }
 
@@ -115,7 +115,7 @@ a{
 }
 
 .project-container{
-  background:url(./Assets/Images/project-background.webp);
+  background:url(./Assets/Images/hbd.jpg);
   background-attachment: fixed;
   margin:0px;
   z-index: 1;
