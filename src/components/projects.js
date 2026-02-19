@@ -1,5 +1,4 @@
 import React from 'react';
-import { Cell, Grid } from 'react-mdl';
 import Brainly_BG from '../Assets/Images/Projects_Image/Brainly_BG.jpg';
 import sma_BG from '../Assets/Images/Projects_Image/sma_BG.jpeg';
 import av_BG from '../Assets/Images/Projects_Image/av_BG.png';
@@ -28,7 +27,7 @@ const projectDetails = {
     RiskAnalysisOnStockPrices: {
         projectName: "Risk analysis on stock prices",
         techStack: "Python",
-        detail: "Performed technical analysis and visualisation on stock prices of tech giants  using data provided by yahoo finance and predicted risk on stock prices by using Monte Carlo method.",
+        detail: "Performed technical analysis and visualisation on stock prices of tech giants using data provided by yahoo finance and predicted risk on stock prices by using Monte Carlo method.",
         githubLink: "https://github.com/ankit986/Risk-Analysis",
         bgImage: sma_BG,
     },
@@ -42,11 +41,10 @@ const projectDetails = {
     Brainly: {
         projectName: "Brainly",
         techStack: "ReactJS, ExpressJS, MySQL.",
-        detail: " A web application which takes image from the registered user and shows the facial part in the image  number of images entered so far by the user.",
+        detail: "A web application which takes image from the registered user and shows the facial part in the image and number of images entered so far by the user.",
         githubLink: "https://github.com/ankit986/Brainly-React-Project",
         bgImage: Brainly_BG,
     },
-   
     AlgorithmVisualiser: {
         projectName: "Algorithm Visualiser",
         techStack: "React",
@@ -54,7 +52,6 @@ const projectDetails = {
         githubLink: "https://github.com/ankit986/algorithm-visualiser",
         bgImage: av_BG,
     },
-
     WouldYouRather: {
         projectName: "Would You Rather?",
         techStack: "React, Redux",
@@ -62,46 +59,40 @@ const projectDetails = {
         githubLink: "https://github.com/ankit986/FlashCardApp",
         bgImage: wyr_BG,
     }
-
 }
-class Projects extends React.Component {
 
+class Projects extends React.Component {
     render() {
         return (
             <div className='project-container' id="project">
                 <div style={{ minHeight: '100vh' }}>
-                    <Grid>
-                        <Cell col={12}>
-                            <h1 className='tc f1 line Shadow '>PROJECTS</h1>
-                            <div className=' color w4 br-pill bw3 center bt '></div>
-                        </Cell>
-                    </Grid>
+                    <div className="section-container">
+                        <h1 className='tc f1 line Shadow'>PROJECTS</h1>
+                        <div className='color w4 br-pill bw3 center bt'></div>
+                    </div>
                     <div className="projects">
-                        <Grid style={{ width: '100%', display: 'block' }}>
+                        <div className="projects-grid">
                             {Object.entries(projectDetails).map(projectDetail => {
                                 const key = projectDetail[0]
                                 const project = projectDetail[1]
-                                return <div key={key} style={{ display: 'inline-block' }} data-aos='zoom-in'>
-                                    <CardP projectName={project.projectName}
-                                        techStack={project.techStack}
-                                        detail={project.detail}
-                                        githubLink={project.githubLink}
-                                        bgImage={project.bgImage} />
-                                </div>
+                                return (
+                                    <div key={key} data-aos='zoom-in'>
+                                        <CardP
+                                            projectName={project.projectName}
+                                            techStack={project.techStack}
+                                            detail={project.detail}
+                                            githubLink={project.githubLink}
+                                            bgImage={project.bgImage}
+                                        />
+                                    </div>
+                                )
                             })}
-
-
-                        </Grid>
+                        </div>
                     </div>
                 </div>
-            </ div>
-
+            </div>
         )
     }
 }
 
 export default Projects;
-
-
-
-

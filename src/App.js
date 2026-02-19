@@ -11,21 +11,19 @@ import 'aos/dist/aos.css';
 
 
 class App extends React.PureComponent {
-  componentDidMount(){
+  componentDidMount() {
     AOS.init({
-      duration : 2000
-    })
+      duration: 2000
+    });
   }
   render() {
     return (
-      <div className="demo-big-content" >
-        <div style={{ height: '100vh' }} >
-          <LandingPage />
-          <About />
-          <Projects />
-          <Contacts />
-          <Footer />
-        </div>
+      <div className="app-container">
+        <LandingPage />
+        <About />
+        <Projects />
+        <Contacts />
+        <Footer />
       </div>
     );
   }

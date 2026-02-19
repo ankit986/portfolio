@@ -109,9 +109,17 @@ a{
 /* projects.js CSS File */
 .projects{
   margin-top: 3%;
-  display: flex;
   text-align: center;
-  width: 100%
+  width: 100%;
+  padding: 0 2%;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
 }
 
 .project-container{
@@ -189,3 +197,100 @@ a{
 }
 
 
+/* Layout Helpers (replacing react-mdl Grid/Cell) */
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* about.js grid */
+.about-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 30px;
+}
+
+.about-image-cell {
+  flex: 1 1 300px;
+  max-width: 450px;
+  text-align: center;
+}
+
+.about-text-cell {
+  flex: 1 1 300px;
+  max-width: 600px;
+  text-align: left;
+}
+
+/* contact.js grid */
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-grid .border-contact {
+  flex: 1 1 250px;
+  max-width: 400px;
+}
+
+/* card.js (project card) */
+.project-card {
+  width: 310px;
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  color: #fff;
+  height: 176px;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px 16px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.card-text {
+  padding: 16px;
+  text-align: justify;
+  flex: 1;
+  color: #333;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.card-actions {
+  padding: 8px 16px 16px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.card-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #ff6406;
+  color: #fff !important;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.card-btn:hover {
+  background: #e05500;
+}

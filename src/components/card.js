@@ -1,36 +1,41 @@
 import React from 'react';
-import { Card, CardTitle, CardText, Button, CardActions, Cell } from 'react-mdl';
 
 class CardP extends React.PureComponent {
-    render(){
+    render() {
+        return (
+            <div className="project-card shadow-3">
+                {/* Card Title and Background Image */}
+                <div
+                    className="card-title"
+                    style={{
+                        background: "url(" + this.props.bgImage + ") center / cover",
+                    }}
+                >
+                    <span>{this.props.projectName}</span>
+                </div>
 
-    return (<div>
-        <Cell >
-                <Card shadow={50}  style={{width:'310px'}} >
-                    {/* Card Title  and Background Image*/}
-                    <CardTitle style={{ color: '#fff', height: '176px', display:"block", background: "url("+this.props.bgImage+") center / cover" }}>
-                        {this.props.projectName}
-                    </CardTitle>
+                {/* Description */}
+                <div className="card-text">
+                    <span style={{ fontWeight: "bold" }}>Tech Stack:-</span>
+                    <b> {this.props.techStack}</b>
+                    <br /><br />
+                    <p>{this.props.detail}</p>
+                </div>
 
-                    {/* Description */}
-                    <CardText style={{ textAlign: 'justify', width:'99%'}}>
-                        <span style={{ fontWeight: "bold" }}>Tech Stack:-</span><b> {this.props.techStack}</b>
-                        <br /><br/>
-                        <p>{this.props.detail}</p>
-                    </CardText>
-
-                    {/* Git-Link */}
-                    <CardActions border>
-                        <Button colored href={this.props.githubLink} target="_blank">Github</Button>
-                    </CardActions>
-                </Card>
-        </Cell>
-    </div>);
+                {/* Git-Link */}
+                <div className="card-actions">
+                    <a
+                        className="card-btn"
+                        href={this.props.githubLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        );
     }
 }
 
 export default CardP;
-
-
-
-

@@ -5,12 +5,9 @@
   "homepage": "https://ankit986.github.io/portfolio/",
   "dependencies": {
     "aos": "^2.3.4",
-    "npm-react": "^1.0.0",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-mdl": "^1.11.0",
-    "react-parallax": "^2.2.4",
-    "react-scripts": "3.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
     "tachyons": "^4.12.0"
   },
   "scripts": {
@@ -36,19 +33,12 @@
       "last 1 safari version"
     ]
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "This project was bootstrapped with Create React App.",
   "main": "index.js",
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^6.0.0"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ankit986/portfolio.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ankit986/portfolio/issues"
-  }
+  "license": "ISC"
 }
